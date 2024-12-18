@@ -1,4 +1,24 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+//Funtion to Select Raddonw itesm
+  const getRandomObjects = (array: typeof items) =>
+    array.sort(() => 0.5 - Math.random()).slice(0, 3);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Getting Started
 
