@@ -3,12 +3,12 @@ import React from "react";
 
 const Rev = () => {
   return (
-    <div>
+    <div className="ml-">
       <section className="flex flex-col items-center mb-20">
-        <h1 className="text-[27px] font-sans font-bold py-8">
+        <h1 className="text-[27px] font-bold py-8">
           What Makes Us Different
         </h1>
-        <div className="flex ">
+        <div className="flex justify-center ml-5">
           <ul className="flex flex-col md:flex-row gap-20 md:justify-center mt-6">
             <li className=" ">
               <Truck />

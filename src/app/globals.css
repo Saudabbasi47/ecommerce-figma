@@ -1,10 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&display=swap');
 
 * {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* font-weight:100; */
   overflow-x: hidden;
   box-sizing: border-box;
@@ -19,6 +18,18 @@ link:hover {
 #cca {
   background-image: url("/images/banners/bga.jpg");
   background-size: cover;
+  font-family:"Poppins",serif;
   
   /* background-position: center; */
 }
+*{
+  font-family:"Clash Display";
+}
+@font-face {
+  font-family: 'Clash Display';
+  src: 
+       url('/fonts/Satoshi-Variable.ttf') format('truetype')
+      
+      }
+
+  
